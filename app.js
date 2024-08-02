@@ -5,11 +5,15 @@ const app = express();
 
 
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'c237_ga_eventapp'
-});
+    // host: 'localhost',
+    // user: 'root',
+    // password: '',
+    // database:'c237miniProj'
+    host: 'db4free.net',
+    user: 'ashertan23020328',
+    password: 'Pleaseshutup06!',
+    database: '23020328@myrp.edu.sg'
+}); 
 
 
 connection.connect((err) => {
